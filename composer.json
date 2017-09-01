@@ -1,0 +1,33 @@
+{
+  "name": "disasterdrop/silex-simple-bus-provider",
+  "description": "Silex Provider for Command bus and Event bus Features with the SimpleBus/MessageBus",
+  "type": "library",
+  "keywords": [
+    "silex",
+    "CommandBus",
+    "EventBus",
+    "SimpleBus",
+    "MessageBus",
+    "commands",
+    "events"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sebatian Hübner",
+      "email": "development@tryfailrepeat.com",
+      "homepage": "https://www.disasterdrop.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^5.5 || ^7.0",
+    "silex/silex": "2.*",
+    "simple-bus/message-bus": "3.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Disasterdrop\\SimpleBusProvider\\": "src/"
+    }
+  }
+}
